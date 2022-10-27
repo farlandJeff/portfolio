@@ -63,7 +63,7 @@ html {
 	margin: auto;
 	width: 50%;
 	position: relative;
-	top: 35%;
+	top: 30%;
 	transform: translateY(-50%);
 	text-align: center;
 }
@@ -71,6 +71,7 @@ html {
 .intro {
 	font-size: 4rem;
 	color: #EBEBEB;
+	font-weight: 900;
 }
 
 nav {
