@@ -63,7 +63,7 @@ html {
 	margin: auto;
 	width: 50%;
 	position: relative;
-	top: 30%;
+	top: 40%;
 	transform: translateY(-50%);
 	text-align: center;
 }
@@ -81,17 +81,56 @@ html {
 }
 
 nav {
-	background-color: #1C1D22;
+	background-color: #272727;
 	height: 80px;
 	position: sticky;
-	display: flex;
+	
 }
 
 .navPic {
 	border-radius: 100%;
 	height: 60px;
 	width: 60px;
-	margin: auto 0px;
+}
+
+.navContent p {
+	color: white;
+	font-weight: 500;
+	letter-spacing: .1rem;
+	font-size: 1.2rem;
+}
+
+.navContent {
+	display: flex;
+	gap: 70px;
+	align-items: center;
+	padding: .55rem 7rem;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin-right: auto;
+}
+
+#id {
+	padding: 0 12rem;
+}
+
+.maincontainer {
+	width: 92%;
+	margin: auto;
+	max-width: 120rem;
+}
+
+.landContent button {
+	background-color: #1C1D22;
+	border: none;
+	padding: .5rem 3rem;
+	color: white;
+	font-size: 1.5rem;
+	border-radius: 5px;
 }
 
 /* Scroll Bar */
