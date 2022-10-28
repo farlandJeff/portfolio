@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,7 +48,8 @@ table {
 /* ------------------------------------------------------------------------- */
 
 html {
-	font-family: "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+	font-family: "Montserrat", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -75,7 +78,7 @@ body {
 .intro {
 	font-size: 4rem;
 	color: white;
-	font-weight: 900;
+	font-weight: 600;
 }
 
 .desc {
@@ -88,7 +91,7 @@ nav {
 	background-color: #272727;
 	height: 80px;
 	position: sticky;
-	
+	top:0px;
 }
 
 .navPic {
@@ -119,7 +122,7 @@ nav {
 }
 
 #about {
-	padding: 8rem 0;
+	padding: 5rem 0;
 	letter-spacing: .1rem;
 }
 
@@ -152,6 +155,29 @@ h1 {
 	width: 200px;
 	margin: 12px auto 48px;
 
+}
+
+.about-desc {
+	display: flex;
+}
+
+.story, .skills {
+	flex: 1 1 0px;
+}
+
+
+.pepper-pic {
+	width: 405px;
+	height: 245px;
+	border-radius: 30px;
+	border: solid 3px #1C1D22;
+	display: block;
+	margin: 25px auto;
+}
+
+p {
+	color: white;
+	line-height: 1.5;
 }
 
 /* Scroll Bar */
