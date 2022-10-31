@@ -121,7 +121,7 @@ nav {
 	margin-right: auto;
 }
 
-#about {
+#about, #projects {
 	padding: 6rem 0;
 	letter-spacing: .1rem;
 }
@@ -172,7 +172,7 @@ nav {
 h1 {
 	font-size: 2.6rem;
 	color: white;
-	font-weight: 500;
+	font-weight: 600;
 	text-align: center;
 }
 
