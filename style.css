@@ -132,7 +132,7 @@ nav {
 	max-width: 120rem;
 }
 
-.landContent button {
+.landingbtn {
 	background-color: #1C1D22;
 	border: none;
 	padding: .5rem 3rem;
@@ -163,7 +163,7 @@ h1 {
 	align-items: center;
 }
 
-.story, .skills {
+.story, .skills-sect {
 	flex: 1 1 0px;
 }
 
@@ -185,6 +185,8 @@ p {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 15px;
+	justify-content: center;
+	align-items: center;
 }
 
 .skill {
@@ -202,12 +204,33 @@ p {
 .skill p {
 	font-weight: 500;
 }
+
 .skill .cpp {
 	width: 44px;
 }
+
+.skill .aws {
+	width: 50px;
+	height: auto;
+	
+}
+
+.wide-logo {
+	justify-content: end;
+	gap: 5px;
+}
+
 .skill img {
 	height: 50px;
 	width: 50px;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	
+	font-size: 32px;
+	font-weight: 500;
 }
 
 /* Scroll Bar */
