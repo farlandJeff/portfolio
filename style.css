@@ -317,6 +317,7 @@ h3 {
 	position: relative;
 	margin-top: 50px;
 	transition: ease-out 0.3s;
+	margin: auto;
 }
 
 .proj-btn:hover {
