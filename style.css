@@ -195,10 +195,10 @@ h1 {
 	flex: 1 1 0px;
 }
 
-.pepper-pic {
-	width: 405px;
-	height: 245px;
-	border-radius: 20px;
+.jeff-pic {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
 	border: solid 3px #1C1D22;
 	display: block;
 	margin: 10px auto 25px;
@@ -256,9 +256,76 @@ p {
 h2 {
 	color: white;
 	text-align: center;
-	
+	padding-bottom: 50px;
 	font-size: 2rem;
 	font-weight: 500;
+}
+
+.project {
+	margin: 150px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 100px;
+}
+
+.pimg {
+	height: 100%;
+	display: block;
+	border: solid 2px #1C1D22;
+	margin: auto;
+}
+
+.long-img {
+	width: auto;
+}
+
+.proj-img {
+	flex: 2 1 0px;
+	height: 500px;
+}
+
+.proj-desc {
+	flex: 1 1 0px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h3 {
+	text-align: center;
+	color: white;
+	padding-bottom: 50px;
+	font-size: 1.7rem;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+.proj-desc p {
+	text-align: center;
+}
+
+.proj-btn {
+	background-color: #1C1D22;
+	border: none;
+	padding: .5rem 3rem;
+	color: white;
+	font-size: 1.5rem;
+	border-radius: 5px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	position: relative;
+	margin-top: 50px;
+	transition: ease-out 0.3s;
+}
+
+.proj-btn:hover {
+	cursor: pointer; 
+	background-color: #34836D;
+}
+
+.proj-container {
+	vertical-align: middle;
 }
 
 /* Scroll Bar */
