@@ -207,6 +207,8 @@ h1 {
 p {
 	color: white;
 	line-height: 1.5;
+
+	transition: ease-out 0.3s;
 }
 
 .skills {
@@ -314,10 +316,8 @@ h3 {
 	font-size: 1.5rem;
 	border-radius: 5px;
 	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-	position: relative;
 	margin-top: 50px;
 	transition: ease-out 0.3s;
-	margin: auto;
 }
 
 .proj-btn:hover {
@@ -327,6 +327,14 @@ h3 {
 
 .proj-container {
 	vertical-align: middle;
+}
+
+.nav-head {
+	cursor: pointer;
+}
+
+.nav-head:hover {
+	color: #34836D;
 }
 
 /* Scroll Bar */
