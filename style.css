@@ -279,6 +279,7 @@ h2 {
 
 .long-img {
 	width: auto;
+	max-width: 100px;
 }
 
 .proj-img {
@@ -377,6 +378,32 @@ input:focus, textarea:focus {
 
 .contact-submit .proj-btn {
 	margin: 0px;
+}
+
+.footer {
+	background-color: #1C1D22;
+	height: 150px;
+	margin-top: 120px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.copyright {
+	font-size: 14px;
+	font-weight: 400;
+	
+}
+
+.social {
+	margin-bottom: 20px;
+}
+
+.social-img {
+	width: 50px;
+	height: 50px;
+	margin: 0px 5px;
 }
 
 /* Scroll Bar */
