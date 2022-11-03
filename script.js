@@ -15,7 +15,7 @@ homeNav.addEventListener('click', () => {
 });
 
 aboutNav.addEventListener('click', () => {
-    document.querySelector('.navBar').scrollIntoView();
+    document.querySelector('#about').scrollIntoView();
 });
 
 projectsNav.addEventListener('click', () => {
